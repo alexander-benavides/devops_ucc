@@ -1,0 +1,31 @@
+
+
+#include <stdio.h>
+
+#include <stdio.h>
+#include <math.h>
+
+
+int main()
+
+{
+
+
+
+    float areaCuadrado,areaCirculo,areaTriangulo, l1, radio, h, base;
+
+
+
+    l1 = 7;
+
+    radio = 10;
+
+    h = 12;
+
+    base = 8;
+	
+	//
+	areaCuadrado = l1 * l1;
+
+    printf("La raiz del cuadrado es: %f",sqrt(areaCuadrado));
+

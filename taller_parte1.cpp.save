@@ -1,0 +1,49 @@
+
+
+
+#include <stdio.h>
+
+#include <stdio.h>
+#include <math.h>
+
+
+int main()
+
+{
+
+
+
+    float areaCuadrado,areaCirculo,areaTriangulo, l1, radio, h, base;
+
+
+
+    l1 = 7;
+
+    radio = 10;
+
+    h = 12;
+
+    base = 8;
+	
+	//
+	areaCuadrado = l1 * l1;
+
+    printf("La raiz del cuadrado es: %f",sqrt(areaCuadrado));
+
+
+
+    /*Triangulo*/
+
+    areaTriangulo = (base * h) / 2;
+
+    printf("\nLa raiz del triangulo es de: %f",sqrt(areaTriangulo));
+	
+	//
+	areaCirculo = (radio * radio) * 3.14;
+
+    printf("\nLa raiz cuadrada del circulo es de: %f",sqrt(areaCirculo));
+
+}// archivo funcion
+// vf_area calcular raiz cuadrada en una variable e imprimir el resultado
+	
+
