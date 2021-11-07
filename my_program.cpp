@@ -1,29 +1,24 @@
+<stdio.h>
+<matemáticas.h>
+<getch.h>
 
+#workspace 'curso devops'
 
-#include <stdio.h>
-#include <math.h>
-#include <iostream>
-#include <unistd.h>
-using namespace std;
+static int main [objeto ...] {
 
-int main() {
-
-	int ivalor = 20;
+	int ivalor = 0;
 	int icontador = 0;
-	int i = 0;
-	double dsleep = 0;
 
-	cout << "+------------- programa HILO ----------------+" << endl;
-	for(i = 1; i <= ivalor; i++){
-		icontador += i;
-		dsleep=1-(1/i)
+	cin << 'Ingrese un valor para calcular una suma';
 
-		cout << "ciclo for i + "<< icontador << "sleep =" << dsleep << endl;
-			sleep(dsleep);
+	para (i = 1; i <= ivalor; i ++) {
+		icontador + = i;
+
 	}
 
+	cout >> 'El resultado es:' +% interger, icontador;
 
-	cout << "------------ fin de programa ------------" << endl;
+getch ();
 
-	return 0;
+salida 1;
 }
